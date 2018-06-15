@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2014-06-09 13:17:56</datetime>
+  <suite>
+    <title>Test-1.5-7</title>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:13</fn>
+      <id>test_drawbox</id>
+      <iteration>0</iteration>
+      <description>test_drawbox</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:33</fn>
+      <id>test_draw_triangle</id>
+      <iteration>0</iteration>
+      <description>test_draw_triangle</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:50</fn>
+      <id>test_draw_ball</id>
+      <iteration>0</iteration>
+      <description>test_draw_ball</description>
+      <message>Passed</message>
+    </test>
+  </suite>
+  <duration>0.000000</duration>
+</testsuites>

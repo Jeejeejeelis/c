@@ -1,0 +1,4 @@
+[test] [test_largest_num] 2.4
+[test] [test_array_reader] 2.3
+[test] [test_array_sum] 2.2
+[test] [test_number_swap] 2.1

@@ -1,0 +1,4 @@
+[test] [test_reduce] 3.4.d
+[test] [test_add] 3.4.c
+[test] [test_compare] 3.4.b
+[test] [test_set] 3.4.a

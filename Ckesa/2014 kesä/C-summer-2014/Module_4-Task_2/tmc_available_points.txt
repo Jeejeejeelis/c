@@ -1,0 +1,4 @@
+[test] [test_printField] 4.2.d
+[test] [test_countNeighbours] 4.2.c
+[test] [test_checkPlace] 4.2.b
+[test] [test_createField] 4.2.a

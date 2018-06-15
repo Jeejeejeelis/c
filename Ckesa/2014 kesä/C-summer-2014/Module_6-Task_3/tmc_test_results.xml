@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2014-08-22 20:28:08</datetime>
+  <suite>
+    <title>Test-6.3</title>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:59</fn>
+      <id>test_isBlocked</id>
+      <iteration>0</iteration>
+      <description>test_isBlocked</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:108</fn>
+      <id>test_createMonsters</id>
+      <iteration>0</iteration>
+      <description>test_createMonsters</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:242</fn>
+      <id>test_moveTowards</id>
+      <iteration>0</iteration>
+      <description>test_moveTowards</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:311</fn>
+      <id>test_moveAway</id>
+      <iteration>0</iteration>
+      <description>test_moveAway</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:395</fn>
+      <id>test_monsterAction</id>
+      <iteration>0</iteration>
+      <description>test_monsterAction</description>
+      <message>Passed</message>
+    </test>
+  </suite>
+  <duration>0.000000</duration>
+</testsuites>

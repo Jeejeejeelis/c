@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2014-06-30 17:02:40</datetime>
+  <suite>
+    <title>Test-5.5</title>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:10</fn>
+      <id>test_check</id>
+      <iteration>0</iteration>
+      <description>test_check</description>
+      <message>Passed</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>test_source.c:55</fn>
+      <id>test_make_array</id>
+      <iteration>0</iteration>
+      <description>test_make_array</description>
+      <message>[Task 5.5.b] Implement MAKE_ARRAY macro</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>test_source.c:85</fn>
+      <id>test_array_idx</id>
+      <iteration>0</iteration>
+      <description>test_array_idx</description>
+      <message>[Task 5.5.c] Implement MAKE_ARRAY macro</message>
+    </test>
+  </suite>
+  <duration>0.000000</duration>
+</testsuites>

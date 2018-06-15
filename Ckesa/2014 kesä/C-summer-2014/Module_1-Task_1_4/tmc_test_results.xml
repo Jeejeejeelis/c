@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2014-06-09 10:36:25</datetime>
+  <suite>
+    <title>Test-1.1-4</title>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:23</fn>
+      <id>test_three_lines</id>
+      <iteration>0</iteration>
+      <description>test_three_lines</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:38</fn>
+      <id>test_distOrigo</id>
+      <iteration>0</iteration>
+      <description>test_distOrigo</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:74</fn>
+      <id>test_simple_sum</id>
+      <iteration>0</iteration>
+      <description>test_simple_sum</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:80</fn>
+      <id>test_simple_math</id>
+      <iteration>0</iteration>
+      <description>test_simple_math</description>
+      <message>Passed</message>
+    </test>
+  </suite>
+  <duration>0.000000</duration>
+</testsuites>

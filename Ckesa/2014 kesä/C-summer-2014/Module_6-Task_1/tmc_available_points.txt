@@ -1,0 +1,4 @@
+[test] [test_most_common] 6.1.d
+[test] [test_reversed_words] 6.1.c
+[test] [test_is_reversed] 6.1.b
+[test] [test_turn_around] 6.1.a

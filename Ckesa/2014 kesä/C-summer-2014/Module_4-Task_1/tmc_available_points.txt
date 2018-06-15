@@ -1,0 +1,3 @@
+[test] [test_sum] 4.1.c
+[test] [test_print] 4.1.b
+[test] [test_set] 4.1.a

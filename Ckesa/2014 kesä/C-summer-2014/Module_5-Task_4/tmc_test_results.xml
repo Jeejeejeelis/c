@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2014-06-30 15:32:23</datetime>
+  <suite>
+    <title>Test-5.4</title>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:28</fn>
+      <id>test_find_string</id>
+      <iteration>0</iteration>
+      <description>test_find_string</description>
+      <message>Passed</message>
+    </test>
+  </suite>
+  <duration>0.000000</duration>
+</testsuites>

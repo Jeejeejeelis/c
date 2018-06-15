@@ -1,0 +1,99 @@
+==5198== Memcheck, a memory error detector
+==5198== Copyright (C) 2002-2011, and GNU GPL'd, by Julian Seward et al.
+==5198== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==5198== Command: ./test/test
+==5198== Parent PID: 27187
+==5198== 
+==5223== 
+==5223== HEAP SUMMARY:
+==5223==     in use at exit: 3,538 bytes in 91 blocks
+==5223==   total heap usage: 121 allocs, 30 frees, 7,197 bytes allocated
+==5223== 
+==5223== LEAK SUMMARY:
+==5223==    definitely lost: 0 bytes in 0 blocks
+==5223==    indirectly lost: 0 bytes in 0 blocks
+==5223==      possibly lost: 0 bytes in 0 blocks
+==5223==    still reachable: 3,538 bytes in 91 blocks
+==5223==         suppressed: 0 bytes in 0 blocks
+==5223== Rerun with --leak-check=full to see details of leaked memory
+==5223== 
+==5223== For counts of detected and suppressed errors, rerun with: -v
+==5223== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 2 from 2)
+==5226== Conditional jump or move depends on uninitialised value(s)
+==5226==    at 0x405806: isBlocked (userif.c:164)
+==5226==    by 0x404FA6: createMonsters (monster.c:179)
+==5226==    by 0x401F69: test_createMonsters (test_source.c:118)
+==5226==    by 0x408CA0: srunner_run_all (in /m/home/home3/38/hautamt2/unix/NetBeansProjects/C-summer-2014/Module_6-Task_3/test/test)
+==5226==    by 0x403E2C: tmc_run_tests (tmc-check.c:122)
+==5226==    by 0x403AD6: main (test_source.c:683)
+==5226== 
+==5226== 
+==5226== HEAP SUMMARY:
+==5226==     in use at exit: 3,607 bytes in 94 blocks
+==5226==   total heap usage: 135 allocs, 41 frees, 8,655 bytes allocated
+==5226== 
+==5226== LEAK SUMMARY:
+==5226==    definitely lost: 0 bytes in 0 blocks
+==5226==    indirectly lost: 0 bytes in 0 blocks
+==5226==      possibly lost: 0 bytes in 0 blocks
+==5226==    still reachable: 3,607 bytes in 94 blocks
+==5226==         suppressed: 0 bytes in 0 blocks
+==5226== Rerun with --leak-check=full to see details of leaked memory
+==5226== 
+==5226== For counts of detected and suppressed errors, rerun with: -v
+==5226== Use --track-origins=yes to see where uninitialised values come from
+==5226== ERROR SUMMARY: 55 errors from 1 contexts (suppressed: 2 from 2)
+==5240== 
+==5240== HEAP SUMMARY:
+==5240==     in use at exit: 3,684 bytes in 97 blocks
+==5240==   total heap usage: 151 allocs, 54 frees, 9,233 bytes allocated
+==5240== 
+==5240== LEAK SUMMARY:
+==5240==    definitely lost: 0 bytes in 0 blocks
+==5240==    indirectly lost: 0 bytes in 0 blocks
+==5240==      possibly lost: 0 bytes in 0 blocks
+==5240==    still reachable: 3,684 bytes in 97 blocks
+==5240==         suppressed: 0 bytes in 0 blocks
+==5240== Rerun with --leak-check=full to see details of leaked memory
+==5240== 
+==5240== For counts of detected and suppressed errors, rerun with: -v
+==5240== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 2 from 2)
+==5276== 
+==5276== HEAP SUMMARY:
+==5276==     in use at exit: 3,769 bytes in 100 blocks
+==5276==   total heap usage: 166 allocs, 66 frees, 10,219 bytes allocated
+==5276== 
+==5276== LEAK SUMMARY:
+==5276==    definitely lost: 0 bytes in 0 blocks
+==5276==    indirectly lost: 0 bytes in 0 blocks
+==5276==      possibly lost: 0 bytes in 0 blocks
+==5276==    still reachable: 3,769 bytes in 100 blocks
+==5276==         suppressed: 0 bytes in 0 blocks
+==5276== Rerun with --leak-check=full to see details of leaked memory
+==5276== 
+==5276== For counts of detected and suppressed errors, rerun with: -v
+==5276== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 2 from 2)
+==5277== 
+==5277== HEAP SUMMARY:
+==5277==     in use at exit: 3,838 bytes in 103 blocks
+==5277==   total heap usage: 181 allocs, 78 frees, 11,341 bytes allocated
+==5277== 
+==5277== LEAK SUMMARY:
+==5277==    definitely lost: 0 bytes in 0 blocks
+==5277==    indirectly lost: 0 bytes in 0 blocks
+==5277==      possibly lost: 0 bytes in 0 blocks
+==5277==    still reachable: 3,838 bytes in 103 blocks
+==5277==         suppressed: 0 bytes in 0 blocks
+==5277== Rerun with --leak-check=full to see details of leaked memory
+==5277== 
+==5277== For counts of detected and suppressed errors, rerun with: -v
+==5277== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 2 from 2)
+==5198== 
+==5198== HEAP SUMMARY:
+==5198==     in use at exit: 0 bytes in 0 blocks
+==5198==   total heap usage: 179 allocs, 179 frees, 10,878 bytes allocated
+==5198== 
+==5198== All heap blocks were freed -- no leaks are possible
+==5198== 
+==5198== For counts of detected and suppressed errors, rerun with: -v
+==5198== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 2 from 2)

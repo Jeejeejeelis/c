@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2014-08-19 14:06:19</datetime>
+  <suite>
+    <title>Test-6.1</title>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:21</fn>
+      <id>test_turn_around</id>
+      <iteration>0</iteration>
+      <description>test_turn_around</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:50</fn>
+      <id>test_is_reversed</id>
+      <iteration>0</iteration>
+      <description>test_is_reversed</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:66</fn>
+      <id>test_reversed_words</id>
+      <iteration>0</iteration>
+      <description>test_reversed_words</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:116</fn>
+      <id>test_most_common</id>
+      <iteration>0</iteration>
+      <description>test_most_common</description>
+      <message>Passed</message>
+    </test>
+  </suite>
+  <duration>0.000000</duration>
+</testsuites>

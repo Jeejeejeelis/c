@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2014-06-26 14:49:02</datetime>
+  <suite>
+    <title>Test-4.2</title>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:65</fn>
+      <id>test_createField</id>
+      <iteration>0</iteration>
+      <description>test_createField</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:94</fn>
+      <id>test_checkPlace</id>
+      <iteration>0</iteration>
+      <description>test_checkPlace</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:166</fn>
+      <id>test_countNeighbours</id>
+      <iteration>0</iteration>
+      <description>test_countNeighbours</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:196</fn>
+      <id>test_printField</id>
+      <iteration>0</iteration>
+      <description>test_printField</description>
+      <message>Passed</message>
+    </test>
+  </suite>
+  <duration>0.000000</duration>
+</testsuites>

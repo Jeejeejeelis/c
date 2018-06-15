@@ -1,0 +1,3 @@
+[test] [test_calculator] 1.10
+[test] [test_secret_msg] 1.9
+[test] [test_ascii_chart] 1.8

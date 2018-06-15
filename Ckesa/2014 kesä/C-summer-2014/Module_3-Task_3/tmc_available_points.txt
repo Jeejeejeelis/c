@@ -1,0 +1,5 @@
+[test] [test_delete_product] 3.3.e
+[test] [test_find_product] 3.3.d
+[test] [test_remove_all] 3.3.c
+[test] [test_add_product] 3.3.b
+[test] [test_init_product] 3.3.a

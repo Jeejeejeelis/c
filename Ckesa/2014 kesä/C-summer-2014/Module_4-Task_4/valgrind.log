@@ -1,0 +1,45 @@
+==25021== Memcheck, a memory error detector
+==25021== Copyright (C) 2002-2011, and GNU GPL'd, by Julian Seward et al.
+==25021== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==25021== Command: ./test/test
+==25021== Parent PID: 27117
+==25021== 
+==25028== 
+==25028== HEAP SUMMARY:
+==25028==     in use at exit: 2,016 bytes in 45 blocks
+==25028==   total heap usage: 60 allocs, 15 frees, 4,535 bytes allocated
+==25028== 
+==25028== LEAK SUMMARY:
+==25028==    definitely lost: 0 bytes in 0 blocks
+==25028==    indirectly lost: 0 bytes in 0 blocks
+==25028==      possibly lost: 0 bytes in 0 blocks
+==25028==    still reachable: 2,016 bytes in 45 blocks
+==25028==         suppressed: 0 bytes in 0 blocks
+==25028== Rerun with --leak-check=full to see details of leaked memory
+==25028== 
+==25028== For counts of detected and suppressed errors, rerun with: -v
+==25028== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 2 from 2)
+==25030== 
+==25030== HEAP SUMMARY:
+==25030==     in use at exit: 2,085 bytes in 48 blocks
+==25030==   total heap usage: 84 allocs, 36 frees, 6,369 bytes allocated
+==25030== 
+==25030== LEAK SUMMARY:
+==25030==    definitely lost: 0 bytes in 0 blocks
+==25030==    indirectly lost: 0 bytes in 0 blocks
+==25030==      possibly lost: 0 bytes in 0 blocks
+==25030==    still reachable: 2,085 bytes in 48 blocks
+==25030==         suppressed: 0 bytes in 0 blocks
+==25030== Rerun with --leak-check=full to see details of leaked memory
+==25030== 
+==25030== For counts of detected and suppressed errors, rerun with: -v
+==25030== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 2 from 2)
+==25021== 
+==25021== HEAP SUMMARY:
+==25021==     in use at exit: 0 bytes in 0 blocks
+==25021==   total heap usage: 105 allocs, 105 frees, 8,378 bytes allocated
+==25021== 
+==25021== All heap blocks were freed -- no leaks are possible
+==25021== 
+==25021== For counts of detected and suppressed errors, rerun with: -v
+==25021== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 2 from 2)

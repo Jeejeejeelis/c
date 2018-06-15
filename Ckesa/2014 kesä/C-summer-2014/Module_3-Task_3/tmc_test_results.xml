@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2014-06-13 14:09:41</datetime>
+  <suite>
+    <title>Test-3.3</title>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:59</fn>
+      <id>test_init_product</id>
+      <iteration>0</iteration>
+      <description>test_init_product</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:84</fn>
+      <id>test_add_product</id>
+      <iteration>0</iteration>
+      <description>test_add_product</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:119</fn>
+      <id>test_remove_all</id>
+      <iteration>0</iteration>
+      <description>test_remove_all</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:142</fn>
+      <id>test_find_product</id>
+      <iteration>0</iteration>
+      <description>test_find_product</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:194</fn>
+      <id>test_delete_product</id>
+      <iteration>0</iteration>
+      <description>test_delete_product</description>
+      <message>Passed</message>
+    </test>
+  </suite>
+  <duration>0.000000</duration>
+</testsuites>

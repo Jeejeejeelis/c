@@ -1,0 +1,4 @@
+[test] [test_simple_math] 1.4
+[test] [test_simple_sum] 1.3
+[test] [test_distOrigo] 1.2
+[test] [test_three_lines] 1.1

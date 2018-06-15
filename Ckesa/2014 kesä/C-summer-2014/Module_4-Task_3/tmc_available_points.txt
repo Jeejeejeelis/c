@@ -1,0 +1,4 @@
+[test] [test_sort_strings] 4.3.d
+[test] [test_make_lower] 4.3.c
+[test] [test_add_string] 4.3.b
+[test] [test_init_array] 4.3.a

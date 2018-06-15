@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2014-06-26 18:10:11</datetime>
+  <suite>
+    <title>Test-4.4</title>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:51</fn>
+      <id>test_parsePacket</id>
+      <iteration>0</iteration>
+      <description>test_parsePacket</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:80</fn>
+      <id>test_setPacket</id>
+      <iteration>0</iteration>
+      <description>test_setPacket</description>
+      <message>Passed</message>
+    </test>
+  </suite>
+  <duration>0.000000</duration>
+</testsuites>

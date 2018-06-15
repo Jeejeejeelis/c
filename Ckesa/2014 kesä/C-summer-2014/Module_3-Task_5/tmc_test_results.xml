@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2014-06-13 16:12:05</datetime>
+  <suite>
+    <title>Test-3.5</title>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:77</fn>
+      <id>test_add_product</id>
+      <iteration>0</iteration>
+      <description>test_add_product</description>
+      <message>Passed</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>test_source.c:159</fn>
+      <id>test_find_product</id>
+      <iteration>0</iteration>
+      <description>test_find_product</description>
+      <message>[Task 3.5.b] Find_int did not find code '1111', as it should have
+</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:215</fn>
+      <id>test_remove_product</id>
+      <iteration>0</iteration>
+      <description>test_remove_product</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:274</fn>
+      <id>test_delete_list</id>
+      <iteration>0</iteration>
+      <description>test_delete_list</description>
+      <message>Passed</message>
+    </test>
+  </suite>
+  <duration>0.000000</duration>
+</testsuites>
